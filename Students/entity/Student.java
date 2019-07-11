@@ -1,4 +1,6 @@
-package Students;
+package Students.entity;
+
+import Students.repository.StudentProgress;
 
 public class Student {
 

@@ -1,4 +1,7 @@
-package Students;
+package Students.service;
+
+import Students.entity.Student;
+import Students.repository.Group;
 
 public class MarkCalculationService implements MarkCalculateable {
 

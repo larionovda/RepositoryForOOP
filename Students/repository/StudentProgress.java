@@ -1,4 +1,4 @@
-package Students;
+package Students.repository;
 
 public class StudentProgress {
 

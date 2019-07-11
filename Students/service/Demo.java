@@ -1,8 +1,10 @@
-package Students;
+package Students.service;
 
-public class Demo {
+import Students.entity.Student;
+
+public class Demo implements DemoRunable {
+    @Override
     public void run() {
-
         Student student = new Student("Dmitriy", "larionov", 5, 5, 5, 5);
         Student student2 = new Student("Roman", "Pavlov", 5, 3, 5, 5);
         Student student3 = new Student("Greg", "Cambell", 5, 5, 5, 5);
@@ -17,6 +19,5 @@ public class Demo {
         markCalc.calcAverMarkGroup(student, student2, student3, student4, student5);
         markCalc.findCountUnsuccess(student, student2, student3, student4, student5);
         markCalc.findCountHonors(student, student2, student3, student4, student5);
-
     }
 }

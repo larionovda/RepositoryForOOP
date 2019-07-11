@@ -1,4 +1,6 @@
-package Students;
+package Students.repository;
+
+import Students.entity.Student;
 
 public class Group {
 

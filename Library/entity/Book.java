@@ -1,4 +1,4 @@
-package Library;
+package library.entity;
 
 public class Book {
 

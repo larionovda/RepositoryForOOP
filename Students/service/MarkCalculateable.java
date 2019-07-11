@@ -1,4 +1,6 @@
-package Students;
+package Students.service;
+
+import Students.entity.Student;
 
 public interface MarkCalculateable {
 
